@@ -43,5 +43,10 @@ namespace TextGenerator
         {
             textBox1.Text = rnd.Gen(5);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -22,7 +22,7 @@ namespace TextGenerator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1.instance.BackColor = Color.Black;
+            Form1.instance.BackColor = Color.Black; BackColor = Color.Black;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace TextGenerator
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1.instance.tbf1.BackColor = Color.White;
+            Form1.instance.BackColor = Color.White; BackColor = Color.White;
         }
     }
 }
