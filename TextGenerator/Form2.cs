@@ -39,5 +39,22 @@ namespace TextGenerator
         {
             Form1.instance.BackColor = Color.White; BackColor = Color.White;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("cant get it to work rip");
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Adding in new updates");  
+            // Use this code For later updates Test code: openFileDialog1.Filter = ("png");
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+            openFileDialog1 = new OpenFileDialog();
+        }
     }
 }
